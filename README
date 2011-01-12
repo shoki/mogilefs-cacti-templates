@@ -1,0 +1,18 @@
+MogileFS Cacti Templates
+========================
+
+Author: Andre Pascha <bender@duese.org>
+Creation date: 12.01.2011
+
+This is a set of templates for Cacti to graph values from the !stats command
+of a MogileFS tracker.
+
+Tested using MogileFS-Server 2.45 and Cacti 0.8.7d.
+
+Installation:
+1. Copy mogilefs_tracker.php to the scripts directory of cacti.
+2. Import the cacti_mogilefs_tracker_template.xml using the "Import Templates" 
+   menu entry of the cacti web interface.
+3. Use the MogileFS Tracker Host Template to add the graphs to a host.
+
+
